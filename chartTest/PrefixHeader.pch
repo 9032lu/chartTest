@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  chartTest
+//
+//  Created by Bletc on 16/8/24.
+//  Copyright © 2016年 bletc. All rights reserved.
+//
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "LZDButton.h"
+#import "TKAlertCenter.h"
+#import "EMSDK.h"
+#import "LZDDefine.h"
+#import "UIViewExt.h"
+#import "MBProgressHUD+Add.h"
+#import "UIButton+WebCache.h"
+
+#import "Request.h"
+
+
+#define HEADIMAGE @"http://101.201.100.191/VipCard/upload/UserImage/headImage/"
+
+
+
+
+
+#endif /* PrefixHeader_pch */
